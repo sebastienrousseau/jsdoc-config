@@ -1,7 +1,7 @@
 module.exports = {
   "source": {
     "includePattern": ".+\\.js(doc|x)?$",
-    "include": ["."],
+    "include": "./src/**/*.js"
     "exclude": ["node_modules", "dist", "coverage", "test"]
   },
   "recurseDepth": 10,
