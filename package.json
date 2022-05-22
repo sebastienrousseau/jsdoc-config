@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/jsdoc-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "JSDoc Configuration Files and Rules",
   "keywords": [
     "jsdoc"
@@ -26,6 +26,7 @@
     "url": "https://github.com/sebastienrousseau/jsdoc-config/issues"
   },
   "devDependencies": {
-    "jsdoc": "^3.6.10"
+    "jsdoc": "^3.6.10",
+    "minami": "^1.2.3"
   }
 }
