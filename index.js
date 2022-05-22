@@ -1,5 +1,4 @@
-module.exports = jsDocConfig => {
-  return {
+module.exports = {
     "opts": {
       "destination": "./documentation/",
       "encoding": "utf8",
@@ -27,5 +26,4 @@ module.exports = jsDocConfig => {
       "showInheritedInNav": true,
       "useLongnameInNav": false
     }
-  }
 };
