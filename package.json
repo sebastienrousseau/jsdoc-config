@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/jsdoc-config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "JSDoc Configuration Files and Rules",
   "keywords": [
     "jsdoc"
