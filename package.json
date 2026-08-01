@@ -1,32 +1,50 @@
 {
   "name": "@sebastienrousseau/jsdoc-config",
-  "version": "0.0.5",
-  "description": "JSDoc Configuration Files and Rules",
-  "keywords": [
-    "jsdoc"
-  ],
+  "version": "1.0.0",
+  "description": "Shareable JSDoc documentation generator configuration files and rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
-  "homepage": "https://jsdoc-config.dev",
   "license": "ISC",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "publishConfig": {
-    "access": "public"
-  },
+  "homepage": "https://github.com/sebastienrousseau/jsdoc-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sebastienrousseau/jsdoc-config.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/sebastienrousseau/jsdoc-config/issues"
   },
+  "keywords": [
+    "jsdoc",
+    "jsdocrc",
+    "documentation",
+    "jsdoc-template"
+  ],
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/test.js",
+    "lint": "node test/test.js"
+  },
+  "peerDependencies": {
+    "jsdoc": ">=4.0.0"
+  },
   "devDependencies": {
-    "jsdoc": "^3.6.10",
-    "minami": "^1.2.3"
+    "jsdoc": "^4.0.0"
   }
 }
