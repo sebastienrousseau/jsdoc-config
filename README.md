@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: ISC -->
 
 <p align="center">
-  <img src="https://cloudcdn.pro/jsdoc-config/v1/logos/jsdoc-config.svg" alt="jsdoc-config logo" width="128" />
+  <img src="https://cloudcdn.pro/beonux/v1/logos/beonux.svg" alt="jsdoc-config logo" width="128" />
 </p>
 
 <h1 align="center">@sebastienrousseau/jsdoc-config</h1>
