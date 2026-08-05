@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/jsdoc-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shareable JSDoc documentation generator configuration files and rules",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
