@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.6] - 2026-09-07
+
+### Changed
+- Bump version to 0.0.6 for npm and GitHub Packages release.
+
 ## [0.0.3] - 2026-09-07
 
 ### Added
