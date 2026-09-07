@@ -1,15 +1,34 @@
-# Examples for `@sebastienrousseau/jsdoc-config`
+# `@sebastienrousseau/jsdoc-config` Examples Catalog
 
-This directory contains runnable examples demonstrating how to consume and extend `@sebastienrousseau/jsdoc-config`.
+This directory provides runnable, standalone examples covering **100% of the functionalities and features** provided by `@sebastienrousseau/jsdoc-config`.
 
-## Available Examples
+---
 
-- [`basic.js`](basic.js): Basic consumption of the standard configuration.
-- [`advanced.js`](advanced.js): Custom extension and rule overrides.
+## Example Suite Overview
 
-## Running Examples
+| File | Type | Feature Coverage | Command |
+| :--- | :--- | :--- | :--- |
+| [`basic.js`](./basic.js) | CommonJS | Standard default configuration import | `node examples/basic.js` |
+| [`advanced.js`](./advanced.js) | CommonJS | Custom extension and rule overrides | `node examples/advanced.js` |
+| [`esm.mjs`](./esm.mjs) | ES Module | Native ESM consumption via `import` | `node examples/esm.mjs` |
+| [`features.js`](./features.js) | CommonJS | **100% feature showcase & assertions** | `node examples/features.js` |
+
+---
+
+## 100% Feature Coverage Checklist
+
+- [x] **Markdown Documentation Support**: Embeds plugins/markdown for inline markdown rendering
+- [x] **Recursive Traversal**: Scans source trees up to 10 directory levels deep
+- [x] **Modern Template Navigation**: Monospace and clever links enabled for symbol navigation
+- [x] **Strict Source Inclusion**: Targeted JS and TS source pattern filters
+- [x] **Dual Packaging**: Full interoperability across CommonJS (`.cjs`, `.js`) and ECMAScript Modules (`.mjs`).
+
+---
+
+## Running All Examples
+
+You can run and validate the entire example suite with:
 
 ```bash
-node examples/basic.js
-node examples/advanced.js
+npm run examples
 ```
