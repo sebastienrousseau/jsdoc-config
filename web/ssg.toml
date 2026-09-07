@@ -1,7 +1,7 @@
 site_name = "jsdoc-config"
 site_title = "@sebastienrousseau/jsdoc-config — Shareable JSDoc documentation generator configuration files and rules"
 site_description = "Shareable JSDoc documentation generator configuration files and rules"
-base_url = "https://config.sebastienrousseau.com/jsdoc-config"
+base_url = "https://sebastienrousseau.com/jsdoc-config/"
 language = "en-GB"
 
 content_dir = "web/content"
