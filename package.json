@@ -47,7 +47,7 @@
     "docs:build": "bash scripts/build-docs.sh",
     "test:conformance": "node --test tests/conformance.test.js",
     "fuzz": "node fuzz/fuzz_config.js",
-    "validate": "jsdoc -c index.cjs -X >/dev/null"
+    "validate": "node scripts/validate.mjs"
   },
   "peerDependencies": {
     "jsdoc": ">=4.0.0"
