@@ -1,31 +1,32 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * Modern JSDoc CommonJS Configuration
  */
 module.exports = {
-  "opts": {
-    "destination": "./documentation/",
-    "encoding": "utf8",
-    "recurse": true,
-    "verbose": true
+  opts: {
+    destination: "./documentation/",
+    encoding: "utf8",
+    recurse: true,
+    verbose: true,
   },
-  "plugins": [
-    "plugins/markdown"
-  ],
-  "recurseDepth": 10,
-  "source": {
-    "exclude": ["node_modules", "dist", "coverage", "test"],
-    "excludePattern": "(node_modules/|documentation)",
-    "include": ["src", "README.md"],
-    "includePattern": ".js$"
+  plugins: ["plugins/markdown"],
+  recurseDepth: 10,
+  source: {
+    exclude: ["node_modules", "dist", "coverage", "test"],
+    excludePattern: "(node_modules/|documentation)",
+    include: ["src", "README.md"],
+    includePattern: ".js$",
   },
-  "tags": {
-    "allowUnknownTags": true,
-    "dictionaries": ["jsdoc"]
+  tags: {
+    allowUnknownTags: true,
+    dictionaries: ["jsdoc"],
   },
-  "templates": {
-    "cleverLinks": false,
-    "monospaceLinks": true,
-    "showInheritedInNav": true,
-    "useLongnameInNav": false
-  }
+  templates: {
+    cleverLinks: false,
+    monospaceLinks: true,
+    showInheritedInNav: true,
+    useLongnameInNav: false,
+  },
 };
