@@ -1,11 +1,9 @@
-export interface JSDocConfig {
-  opts?: Record<string, unknown>;
-  plugins?: string[];
-  recurseDepth?: number;
-  source?: Record<string, unknown>;
-  tags?: Record<string, unknown>;
-  templates?: Record<string, unknown>;
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
+export interface JsdocConfig {
+  [key: string]: unknown;
 }
 
-declare const config: JSDocConfig;
+declare const config: JsdocConfig;
 export default config;

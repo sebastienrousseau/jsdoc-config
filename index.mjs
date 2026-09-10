@@ -1,31 +1,14 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
- * Modern JSDoc ESM Configuration
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
  */
-export default {
-  "opts": {
-    "destination": "./documentation/",
-    "encoding": "utf8",
-    "recurse": true,
-    "verbose": true
-  },
-  "plugins": [
-    "plugins/markdown"
-  ],
-  "recurseDepth": 10,
-  "source": {
-    "exclude": ["node_modules", "dist", "coverage", "test"],
-    "excludePattern": "(node_modules/|documentation)",
-    "include": ["src", "README.md"],
-    "includePattern": ".js$"
-  },
-  "tags": {
-    "allowUnknownTags": true,
-    "dictionaries": ["jsdoc"]
-  },
-  "templates": {
-    "cleverLinks": false,
-    "monospaceLinks": true,
-    "showInheritedInNav": true,
-    "useLongnameInNav": false
-  }
-};
+
+import config from "./index.cjs";
+
+export default config;
