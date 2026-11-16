@@ -6,7 +6,7 @@
 class JsdocConfig < Formula
   desc "Shareable JSDoc documentation generator configuration files and rules"
   homepage "https://github.com/sebastienrousseau/jsdoc-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/jsdoc-config/-/jsdoc-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/jsdoc-config/-/jsdoc-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
